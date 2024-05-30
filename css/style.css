@@ -1,0 +1,70 @@
+.back img{
+    width: 100%;
+}
+
+.navi{
+    margin-top: -65%;
+    margin-left: 4%;
+    display: flex;
+}
+
+
+.navbar{
+    margin-left: 22%;
+    margin-top: 19px;
+}
+
+.navbar button{
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.side{
+    cursor: pointer;
+    margin-left: 17%;
+    margin-top: -2px;
+
+}
+
+.sec{
+    margin-top: 49%;
+    margin-left: 77%;
+}
+
+.sec h1{
+    color: white;
+}
+
+.sec p{
+    color: white;
+    margin-top: -20px;
+
+}
+
+.sec button{
+    color: white;
+    background-color: brown;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.sec h2{
+    animation-name: ani1;
+color: black;
+margin-top: -133%;
+margin-left: -166%;
+animation-iteration-count: 3;
+animation-duration: 7s;
+position: relative;
+animation-delay: 3s;
+
+}
+
+@keyframes ani1{
+    from{
+        width: 100px;
+    }
+    to{
+      width:50px;
+    }
+}
